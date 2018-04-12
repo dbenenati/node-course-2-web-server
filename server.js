@@ -20,9 +20,9 @@ app.use(function(req, res, next) {   //next exists so we can tell express when o
     next();
 });
 
-app.use(function(req, res, next){
-    res.render('maintenence.hbs');
-})
+// app.use(function(req, res, next){
+//     res.render('maintenence.hbs');
+// })
 
 app.use(express.static(__dirname + '/public'));
 
